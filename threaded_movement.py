@@ -15,7 +15,7 @@ def checkUp():
             go_up = True # sets the value to True
             print ('up') # not mandatory
             go_up = False # sets the value to False
-            time.sleep(0.1) # Delay time to prevent spamming
+            time.sleep(0.2) # Delay time to prevent spamming
         elif hitwall:
             return # preventive set up of the way to stop threads when player hits wall
 
@@ -26,7 +26,7 @@ def checkDown():
             go_down = True # sets the value to True
             print ('down') # not mandatory
             go_down = False # sets the value to False
-            time.sleep(0.1) # Delay time to prevent spamming
+            time.sleep(0.2) # Delay time to prevent spamming
         elif hitwall:
             return # preventive set up of the way to stop threads when player hits wall
 
@@ -37,7 +37,7 @@ def checkLeft():
             go_left = True # sets the value to True
             print ('left') # not mandatory
             go_left = False # sets the value to False
-            time.sleep(0.1) # Delay time to prevent spamming
+            time.sleep(0.2) # Delay time to prevent spamming
         elif hitwall:
             return # preventive set up of the way to stop threads when player hits wall
 
@@ -48,7 +48,7 @@ def checkRight():
             go_right = True # sets the value to True
             print ('right') # not mandatory
             go_right = False # sets the value to False
-            time.sleep(0.1) # Delay time to prevent spamming
+            time.sleep(0.2) # Delay time to prevent spamming
         elif hitwall:
             return # preventive set up of the way to stop threads when player hits wall
 
