@@ -1,8 +1,5 @@
 import keyboard #library used to check that a key was pressed
-go_up = False
-go_down = False
-go_right = False
-go_left = False
+go_up = go_down = go_right = go_left = False
 #boolean variables used to check for the movement
 print("Use WASD to move")
 while True: #used an infinite loop that cannot be broken
