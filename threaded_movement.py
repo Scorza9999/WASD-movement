@@ -2,11 +2,7 @@ import threading # library used to implemet threading
 import time #library used to create delays
 import keyboard # library used to check that a key was pressed
 
-go_up = False #setting up variables to detect movement
-go_down = False
-go_right = False
-go_left = False
-hitwall = False
+go_up = go_down = go_right = go_left = hitwall = False #setting up variables to detect movement
 
 def checkUp():
     while True: # infinite loop
